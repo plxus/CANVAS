@@ -1,0 +1,257 @@
+body {
+  color: #424242;
+  background-color: #F0F0F0;
+  font-family: sans-serif;
+  font-size: medium;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 0 0;
+  /*padding: 0 20px;*/
+}
+
+h1 {
+  font-size: 150%;
+  line-height: 2em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 130%;
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 120%;
+  line-height: 1.2em;
+}
+
+p {
+  font-size: 100%;
+  line-height: 1.2em;
+}
+
+nav {
+  position: fixed;
+  width: 1440px;
+  height: 54px;
+  margin: 0;
+  margin-bottom: 20px;
+  padding-left: 110px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 4px;
+  color: #ffffff;
+  background-color: #546E7A;
+  font-size: 0.9em;
+}
+
+#admin {
+  /*position: absolute;
+  top: 3px;
+  left: 1160px;*/
+  height: 54px;
+  float: right;
+  margin-right: 240px;
+  vertical-align: middle;
+}
+
+#admin ul#logined {
+  /*height: 54px;*/
+  /*margin: 0;*/
+  margin: 0;
+  padding: 9px 0;
+  vertical-align: middle;
+}
+
+#admin ul#unlogin {
+  /*height: 54px;*/
+  /*margin: 0;*/
+  margin: 0;
+  padding: 17px 0;
+  vertical-align: middle;
+}
+
+#admin ul li {
+  display: inline;
+  margin: auto;
+  margin-left: 15px;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+#admin ul#logined li img {
+  width: 36px;
+  height: 36px;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+nav table {
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  vertical-align: middle;
+}
+
+nav table tr td {
+  padding: 0 25px;
+  vertical-align: middle;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:link, nav a:visited {
+  color: #ffffff;
+}
+
+nav a:hover {
+  color: #CFD8DC;
+}
+
+nav img {
+  vertical-align: middle;
+}
+
+footer {
+  color: #9E9E9E;
+  background-color: #CFD8DC;
+  /*position: fixed;
+  bottom: 0;*/
+  width: 100%;
+  margin: 0;
+  margin-top: 40px;
+  padding: 20px 0 15px 0;
+  text-align: center;
+}
+
+footer p {
+  line-height: 1.4em;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+#all-content {
+  width: 1250px;
+  padding-top: 74px;
+  /*padding-bottom: 164px;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#home-cover {
+  text-align: center;
+  width: 1200px;
+  height: 675px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#home-cover img {
+  width: 1200px;
+  height: 675px;
+  /*box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px;*/
+}
+
+#home_flow {
+  display: table;
+  border-spacing: 26px;
+  width: 1220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.home_flow_row {
+  display: table-row;
+}
+
+div.home_flow_cell {
+  display: table-cell;
+  background-color: #ffffff;
+  width: 280px;
+  height: 386px;
+  /*margin: 20px;*/
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px;
+  vertical-align: top;
+}
+
+div.home_cell_cover {
+  margin: 0;
+  padding: 0;
+  width: 280px;
+  height: 210px;
+}
+
+div.home_cell_cover img {
+  border-radius: 3px 3px 0 0;
+}
+
+div.home_cell_content {
+  margin: 10px;
+  /*padding: 10px;*/
+}
+
+div.home_cell_title {
+  color: #212121;
+  font-weight: bold;
+  line-height: 22px;
+  height: 44px;
+  margin-top: 10px;
+  margin-bottom: 26px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+div.home_cell_title a, div.home_cell_cover a {
+  text-decoration: none;
+}
+
+div.home_cell_cover a:link, div.home_cell_cover a:visited, div.home_cell_title a:link, div.home_cell_title a:visited {
+  color: #424242;
+  text-decoration: none;
+}
+
+div.home_cell_title a:hover {
+  color: #424242;
+  text-decoration: underline;
+}
+
+div.home_cell_by {
+  height: 19px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  color: #546E7A;
+  /*font-weight: bold;*/
+  border-bottom: thin #E0E0E0 solid;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+div.home_cell_about {
+  color: #9E9E9E;
+  font-size: 0.9em;
+  line-height: 23px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+div.home_cell_about span:first-child {
+  color: #757575;
+  font-weight: bold;
+}
+
+div.home_cell_about span:last-child {
+  float: right;
+  text-align: right;
+}
